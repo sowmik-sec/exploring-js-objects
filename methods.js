@@ -4,7 +4,7 @@ const student = {
   study: "CSE",
   subjects: ["Data Structure", "Algorithm", "Discrete Math"],
   exam: function () {
-    return this.name + ` is not participating in an exam`;
+    return this.name + ` is not participating in any exam`;
   },
   improveExam: function (subject) {
     this.exam();
